@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="9" ignored="0" total="30" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11406678" started-at="2020-11-06T16:29:53 ART" finished-at="2020-11-06T19:40:00 ART">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11406678" started-at="2020-11-06T16:29:53 ART" finished-at="2020-11-06T19:40:00 ART">
+      <class name="FlujoBDosRRLL.NotificaOfertaInternetConCuotas">
+        <test-method status="PASS" signature="before()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaInternetConCuotas@5a8e6209]" name="before" is-config="true" duration-ms="0" started-at="2020-11-06T16:29:53 ART" finished-at="2020-11-06T16:29:53 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="InternetYaTengoSitioSinCuotasIntTBK()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaInternetConCuotas@5a8e6209]" name="InternetYaTengoSitioSinCuotasIntTBK" duration-ms="521692" started-at="2020-11-06T18:05:25 ART" finished-at="2020-11-06T18:14:07 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InternetYaTengoSitioSinCuotasIntTBK -->
+        <test-method status="PASS" signature="after()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaInternetConCuotas@5a8e6209]" name="after" is-config="true" duration-ms="0" started-at="2020-11-06T19:40:00 ART" finished-at="2020-11-06T19:40:00 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- FlujoBDosRRLL.NotificaOfertaInternetConCuotas -->
+      <class name="FlujoBDosRRLL.FirmaOfertaTemporalSinCuotas">
+        <test-method status="PASS" signature="before()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaTemporalSinCuotas@3b0143d3]" name="before" is-config="true" duration-ms="0" started-at="2020-11-06T16:29:53 ART" finished-at="2020-11-06T16:29:53 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="PresencialPosFijoLocalExistenteSinCuotas()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaTemporalSinCuotas@3b0143d3]" name="PresencialPosFijoLocalExistenteSinCuotas" duration-ms="407416" started-at="2020-11-06T17:52:48 ART" finished-at="2020-11-06T17:59:36 ART">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f4874f15ac02da1486aa79690cac9d0c
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f4874f15ac02da1486aa79690cac9d0c
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]}
+at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Utilidades.ClaseBase.obtenerTexto(ClaseBase.java:64)
+at Pages.PagePortal.AgendarInstalacionTemporal(PagePortal.java:582)
+at FlujoBDosRRLL.FirmaOfertaTemporalSinCuotas.PresencialPosFijoLocalExistenteSinCuotas(FirmaOfertaTemporalSinCuotas.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosFijoLocalExistenteSinCuotas -->
+        <test-method status="PASS" signature="PresencialPosFijoNuevoLocalSinCuotas()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaTemporalSinCuotas@3b0143d3]" name="PresencialPosFijoNuevoLocalSinCuotas" duration-ms="349089" started-at="2020-11-06T17:59:36 ART" finished-at="2020-11-06T18:05:25 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosFijoNuevoLocalSinCuotas -->
+        <test-method status="PASS" signature="after()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaTemporalSinCuotas@3b0143d3]" name="after" is-config="true" duration-ms="0" started-at="2020-11-06T19:40:00 ART" finished-at="2020-11-06T19:40:00 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- FlujoBDosRRLL.FirmaOfertaTemporalSinCuotas -->
+      <class name="FlujoBDosRRLL.NotificaOfertaPermanenteConCuotas">
+        <test-method status="PASS" signature="before()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaPermanenteConCuotas@731a74c]" name="before" is-config="true" duration-ms="1" started-at="2020-11-06T16:29:53 ART" finished-at="2020-11-06T16:29:53 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="PresencialPosFijoLocalExistenteConNuevasCuotas()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaPermanenteConCuotas@731a74c]" name="PresencialPosFijoLocalExistenteConNuevasCuotas" duration-ms="493830" started-at="2020-11-06T18:32:15 ART" finished-at="2020-11-06T18:40:29 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosFijoLocalExistenteConNuevasCuotas -->
+        <test-method status="PASS" signature="PresencialPosFijoNuevoLocalConNuevasCuotas()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaPermanenteConCuotas@731a74c]" name="PresencialPosFijoNuevoLocalConNuevasCuotas" duration-ms="502337" started-at="2020-11-06T18:40:29 ART" finished-at="2020-11-06T18:48:51 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosFijoNuevoLocalConNuevasCuotas -->
+        <test-method status="PASS" signature="PresencialPosMovilLocalExistenteConNuevasCuotas()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaPermanenteConCuotas@731a74c]" name="PresencialPosMovilLocalExistenteConNuevasCuotas" duration-ms="530639" started-at="2020-11-06T18:48:51 ART" finished-at="2020-11-06T18:57:42 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosMovilLocalExistenteConNuevasCuotas -->
+        <test-method status="PASS" signature="PresencialPosMovilNuevoLocalConNuevasCuotas()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaPermanenteConCuotas@731a74c]" name="PresencialPosMovilNuevoLocalConNuevasCuotas" duration-ms="572545" started-at="2020-11-06T18:57:42 ART" finished-at="2020-11-06T19:07:15 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosMovilNuevoLocalConNuevasCuotas -->
+        <test-method status="PASS" signature="after()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaPermanenteConCuotas@731a74c]" name="after" is-config="true" duration-ms="0" started-at="2020-11-06T19:40:00 ART" finished-at="2020-11-06T19:40:00 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- FlujoBDosRRLL.NotificaOfertaPermanenteConCuotas -->
+      <class name="FlujoBDosRRLL.NotificaOfertaPermanenteSinCuotas">
+        <test-method status="PASS" signature="before()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaPermanenteSinCuotas@369f73a2]" name="before" is-config="true" duration-ms="0" started-at="2020-11-06T16:29:53 ART" finished-at="2020-11-06T16:29:53 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="PresencialPosFijoLocalExistenteSinCuotas()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaPermanenteSinCuotas@369f73a2]" name="PresencialPosFijoLocalExistenteSinCuotas" duration-ms="431058" started-at="2020-11-06T19:07:15 ART" finished-at="2020-11-06T19:14:26 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosFijoLocalExistenteSinCuotas -->
+        <test-method status="FAIL" signature="PresencialPosFijoNuevoLocalSinCuotas()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaPermanenteSinCuotas@369f73a2]" name="PresencialPosFijoNuevoLocalSinCuotas" duration-ms="527716" started-at="2020-11-06T19:14:26 ART" finished-at="2020-11-06T19:23:13 ART">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:59951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 074c51770825c33eefc454148feb1f77
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:59951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 074c51770825c33eefc454148feb1f77
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]}
+at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Utilidades.ClaseBase.obtenerTexto(ClaseBase.java:64)
+at Pages.PagePortal.AgendarInstalacion(PagePortal.java:566)
+at FlujoBDosRRLL.NotificaOfertaPermanenteSinCuotas.PresencialPosFijoNuevoLocalSinCuotas(NotificaOfertaPermanenteSinCuotas.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosFijoNuevoLocalSinCuotas -->
+        <test-method status="PASS" signature="PresencialPosMovilLocalExistenteSinCuotas()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaPermanenteSinCuotas@369f73a2]" name="PresencialPosMovilLocalExistenteSinCuotas" duration-ms="473390" started-at="2020-11-06T19:23:13 ART" finished-at="2020-11-06T19:31:07 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosMovilLocalExistenteSinCuotas -->
+        <test-method status="PASS" signature="PresencialPosMovilNuevoLocalSinCuotas()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaPermanenteSinCuotas@369f73a2]" name="PresencialPosMovilNuevoLocalSinCuotas" duration-ms="532654" started-at="2020-11-06T19:31:07 ART" finished-at="2020-11-06T19:39:59 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosMovilNuevoLocalSinCuotas -->
+        <test-method status="PASS" signature="after()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaPermanenteSinCuotas@369f73a2]" name="after" is-config="true" duration-ms="0" started-at="2020-11-06T19:40:00 ART" finished-at="2020-11-06T19:40:00 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- FlujoBDosRRLL.NotificaOfertaPermanenteSinCuotas -->
+      <class name="FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas">
+        <test-method status="PASS" signature="before()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas@6ddf90b0]" name="before" is-config="true" duration-ms="0" started-at="2020-11-06T16:29:53 ART" finished-at="2020-11-06T16:29:53 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="PresencialPosFijoLocalExistenteSinCuotas()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas@6ddf90b0]" name="PresencialPosFijoLocalExistenteSinCuotas" duration-ms="367568" started-at="2020-11-06T17:17:25 ART" finished-at="2020-11-06T17:23:33 ART">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:51495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 52a05aa63ac4a64291fc6bda69fe692d
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:51495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 52a05aa63ac4a64291fc6bda69fe692d
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]}
+at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Utilidades.ClaseBase.obtenerTexto(ClaseBase.java:64)
+at Pages.PagePortal.AgendarInstalacion(PagePortal.java:566)
+at FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas.PresencialPosFijoLocalExistenteSinCuotas(FirmaOfertaPermanenteSinCuotas.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosFijoLocalExistenteSinCuotas -->
+        <test-method status="PASS" signature="PresencialPosFijoNuevoLocalSinCuotas()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas@6ddf90b0]" name="PresencialPosFijoNuevoLocalSinCuotas" duration-ms="311659" started-at="2020-11-06T17:23:33 ART" finished-at="2020-11-06T17:28:44 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosFijoNuevoLocalSinCuotas -->
+        <test-method status="FAIL" signature="PresencialPosMovilLocalExistenteSinCuotas()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas@6ddf90b0]" name="PresencialPosMovilLocalExistenteSinCuotas" duration-ms="391338" started-at="2020-11-06T17:28:44 ART" finished-at="2020-11-06T17:35:16 ART">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1601291415f191700947f37222f95da1
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1601291415f191700947f37222f95da1
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]}
+at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Utilidades.ClaseBase.obtenerTexto(ClaseBase.java:64)
+at Pages.PagePortal.AgendarInstalacion(PagePortal.java:566)
+at FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas.PresencialPosMovilLocalExistenteSinCuotas(FirmaOfertaPermanenteSinCuotas.java:90)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosMovilLocalExistenteSinCuotas -->
+        <test-method status="PASS" signature="PresencialPosMovilNuevoLocalSinCuotas()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas@6ddf90b0]" name="PresencialPosMovilNuevoLocalSinCuotas" duration-ms="320030" started-at="2020-11-06T17:35:16 ART" finished-at="2020-11-06T17:40:36 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosMovilNuevoLocalSinCuotas -->
+        <test-method status="PASS" signature="after()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas@6ddf90b0]" name="after" is-config="true" duration-ms="0" started-at="2020-11-06T19:40:00 ART" finished-at="2020-11-06T19:40:00 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas -->
+      <class name="FlujoBDosRRLL.FirmaOfertaInternetConCuotas">
+        <test-method status="PASS" signature="before()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaInternetConCuotas@210366b4]" name="before" is-config="true" duration-ms="12" started-at="2020-11-06T16:29:53 ART" finished-at="2020-11-06T16:29:53 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="InternetDeseoVenderSinCuotas()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaInternetConCuotas@210366b4]" name="InternetDeseoVenderSinCuotas" duration-ms="122150" started-at="2020-11-06T16:29:53 ART" finished-at="2020-11-06T16:31:55 ART">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-datos-local/app-wizard-master/div[3]/div[1]/h4"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:61827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 01c2ed6bd6557e910a37bc420ac3c435
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-datos-local/app-wizard-master/div[3]/div[1]/h4}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-datos-local/app-wizard-master/div[3]/div[1]/h4"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:61827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 01c2ed6bd6557e910a37bc420ac3c435
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-datos-local/app-wizard-master/div[3]/div[1]/h4}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Utilidades.ClaseBase.obtenerTexto(ClaseBase.java:64)
+at Pages.PagePortal.CompletarDatosActivacionDeseo(PagePortal.java:609)
+at FlujoBDosRRLL.FirmaOfertaInternetConCuotas.InternetDeseoVenderSinCuotas(FirmaOfertaInternetConCuotas.java:148)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InternetDeseoVenderSinCuotas -->
+        <test-method status="PASS" signature="InternetYaTengoSitioSinCuotasIntPropia()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaInternetConCuotas@210366b4]" name="InternetYaTengoSitioSinCuotasIntPropia" duration-ms="345491" started-at="2020-11-06T16:31:55 ART" finished-at="2020-11-06T16:37:41 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InternetYaTengoSitioSinCuotasIntPropia -->
+        <test-method status="PASS" signature="InternetYaTengoSitioSinCuotasIntTBK()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaInternetConCuotas@210366b4]" name="InternetYaTengoSitioSinCuotasIntTBK" duration-ms="356144" started-at="2020-11-06T16:37:41 ART" finished-at="2020-11-06T16:43:37 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InternetYaTengoSitioSinCuotasIntTBK -->
+        <test-method status="PASS" signature="after()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaInternetConCuotas@210366b4]" name="after" is-config="true" duration-ms="3" started-at="2020-11-06T19:39:59 ART" finished-at="2020-11-06T19:40:00 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- FlujoBDosRRLL.FirmaOfertaInternetConCuotas -->
+      <class name="FlujoBDosRRLL.FirmaOfertaPermanenteConCuotas">
+        <test-method status="PASS" signature="before()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaPermanenteConCuotas@2b2948e2]" name="before" is-config="true" duration-ms="0" started-at="2020-11-06T16:29:53 ART" finished-at="2020-11-06T16:29:53 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="PresencialPosFijoLocalExistenteConNuevasCuotas()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaPermanenteConCuotas@2b2948e2]" name="PresencialPosFijoLocalExistenteConNuevasCuotas" duration-ms="281551" started-at="2020-11-06T16:59:26 ART" finished-at="2020-11-06T17:04:07 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosFijoLocalExistenteConNuevasCuotas -->
+        <test-method status="PASS" signature="PresencialPosFijoNuevoLocalConNuevasCuotas()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaPermanenteConCuotas@2b2948e2]" name="PresencialPosFijoNuevoLocalConNuevasCuotas" duration-ms="262637" started-at="2020-11-06T17:04:07 ART" finished-at="2020-11-06T17:08:30 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosFijoNuevoLocalConNuevasCuotas -->
+        <test-method status="PASS" signature="PresencialPosMovilLocalExistenteConNuevasCuotas()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaPermanenteConCuotas@2b2948e2]" name="PresencialPosMovilLocalExistenteConNuevasCuotas" duration-ms="246918" started-at="2020-11-06T17:08:30 ART" finished-at="2020-11-06T17:12:37 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosMovilLocalExistenteConNuevasCuotas -->
+        <test-method status="PASS" signature="PresencialPosMovilNuevoLocalConNuevasCuotas()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaPermanenteConCuotas@2b2948e2]" name="PresencialPosMovilNuevoLocalConNuevasCuotas" duration-ms="288279" started-at="2020-11-06T17:12:37 ART" finished-at="2020-11-06T17:17:25 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosMovilNuevoLocalConNuevasCuotas -->
+        <test-method status="PASS" signature="after()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaPermanenteConCuotas@2b2948e2]" name="after" is-config="true" duration-ms="1" started-at="2020-11-06T19:40:00 ART" finished-at="2020-11-06T19:40:00 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- FlujoBDosRRLL.FirmaOfertaPermanenteConCuotas -->
+      <class name="FlujoBDosRRLL.FirmaOfertaTemporalConCuotas">
+        <test-method status="PASS" signature="before()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaTemporalConCuotas@57536d79]" name="before" is-config="true" duration-ms="0" started-at="2020-11-06T16:29:53 ART" finished-at="2020-11-06T16:29:53 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="PresencialPosTemporalLocalExistenteConNuevasCuotas()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaTemporalConCuotas@57536d79]" name="PresencialPosTemporalLocalExistenteConNuevasCuotas" duration-ms="350264" started-at="2020-11-06T17:40:36 ART" finished-at="2020-11-06T17:46:26 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosTemporalLocalExistenteConNuevasCuotas -->
+        <test-method status="PASS" signature="PresencialPosTemporalNuevoLocalConNuevasCuotas()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaTemporalConCuotas@57536d79]" name="PresencialPosTemporalNuevoLocalConNuevasCuotas" duration-ms="382396" started-at="2020-11-06T17:46:26 ART" finished-at="2020-11-06T17:52:48 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencialPosTemporalNuevoLocalConNuevasCuotas -->
+        <test-method status="PASS" signature="after()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaTemporalConCuotas@57536d79]" name="after" is-config="true" duration-ms="0" started-at="2020-11-06T19:40:00 ART" finished-at="2020-11-06T19:40:00 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- FlujoBDosRRLL.FirmaOfertaTemporalConCuotas -->
+      <class name="FlujoBDosRRLL.NotificaOfertaInternetSinCuotas">
+        <test-method status="PASS" signature="before()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaInternetSinCuotas@4b4523f8]" name="before" is-config="true" duration-ms="0" started-at="2020-11-06T16:29:53 ART" finished-at="2020-11-06T16:29:53 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="InternetDeseoVenderSinCuotas()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaInternetSinCuotas@4b4523f8]" name="InternetDeseoVenderSinCuotas" duration-ms="357859" started-at="2020-11-06T18:14:07 ART" finished-at="2020-11-06T18:20:04 ART">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@src,'/stock-api/firmadigital/firmar')]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:55997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: efa849c0d5d8f34b54cb06de7fe69842
+*** Element info: {Using=xpath, value=//iframe[contains(@src,'/stock-api/firmadigital/firmar')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@src,'/stock-api/firmadigital/firmar')]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:55997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: efa849c0d5d8f34b54cb06de7fe69842
+*** Element info: {Using=xpath, value=//iframe[contains(@src,'/stock-api/firmadigital/firmar')]}
+at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Pages.PagePortal.RequiereFirmaDigital(PagePortal.java:664)
+at FlujoBDosRRLL.NotificaOfertaInternetSinCuotas.InternetDeseoVenderSinCuotas(NotificaOfertaInternetSinCuotas.java:153)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InternetDeseoVenderSinCuotas -->
+        <test-method status="PASS" signature="InternetYaTengoSitioSinCuotasIntPropia()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaInternetSinCuotas@4b4523f8]" name="InternetYaTengoSitioSinCuotasIntPropia" duration-ms="490841" started-at="2020-11-06T18:20:04 ART" finished-at="2020-11-06T18:28:15 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InternetYaTengoSitioSinCuotasIntPropia -->
+        <test-method status="FAIL" signature="InternetYaTengoSitioSinCuotasIntTBK()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaInternetSinCuotas@4b4523f8]" name="InternetYaTengoSitioSinCuotasIntTBK" duration-ms="240046" started-at="2020-11-06T18:28:15 ART" finished-at="2020-11-06T18:32:15 ART">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-datos-local/app-wizard-master/div[3]/div[1]/h4"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56910}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9459078642c4d986d786e9a2a3113ebf
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-datos-local/app-wizard-master/div[3]/div[1]/h4}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-datos-local/app-wizard-master/div[3]/div[1]/h4"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56910}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9459078642c4d986d786e9a2a3113ebf
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-datos-local/app-wizard-master/div[3]/div[1]/h4}
+at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Utilidades.ClaseBase.obtenerTexto(ClaseBase.java:64)
+at Pages.PagePortal.CompletarDatosActivacion(PagePortal.java:590)
+at FlujoBDosRRLL.NotificaOfertaInternetSinCuotas.InternetYaTengoSitioSinCuotasIntTBK(NotificaOfertaInternetSinCuotas.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InternetYaTengoSitioSinCuotasIntTBK -->
+        <test-method status="PASS" signature="after()[pri:0, instance:FlujoBDosRRLL.NotificaOfertaInternetSinCuotas@4b4523f8]" name="after" is-config="true" duration-ms="0" started-at="2020-11-06T19:40:00 ART" finished-at="2020-11-06T19:40:00 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- FlujoBDosRRLL.NotificaOfertaInternetSinCuotas -->
+      <class name="FlujoBDosRRLL.FirmaOfertaInternetSinCuotas">
+        <test-method status="PASS" signature="before()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaInternetSinCuotas@eec5a4a]" name="before" is-config="true" duration-ms="0" started-at="2020-11-06T16:29:53 ART" finished-at="2020-11-06T16:29:53 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="InternetDeseoVenderSinCuotas()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaInternetSinCuotas@eec5a4a]" name="InternetDeseoVenderSinCuotas" duration-ms="236846" started-at="2020-11-06T16:43:37 ART" finished-at="2020-11-06T16:47:34 ART">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/app-home/div/div/app-contrato/div/div[2]/div[3]/div/pdf-viewer/div/div/div[1]/div[2]/div[2]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:63950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0e9b77c3da0a049586750638d48dcf19
+*** Element info: {Using=xpath, value=/html/body/app-root/app-home/div/div/app-contrato/div/div[2]/div[3]/div/pdf-viewer/div/div/div[1]/div[2]/div[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/app-home/div/div/app-contrato/div/div[2]/div[3]/div/pdf-viewer/div/div/div[1]/div[2]/div[2]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:63950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0e9b77c3da0a049586750638d48dcf19
+*** Element info: {Using=xpath, value=/html/body/app-root/app-home/div/div/app-contrato/div/div[2]/div[3]/div/pdf-viewer/div/div/div[1]/div[2]/div[2]}
+at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Utilidades.ClaseBase.obtenerTexto(ClaseBase.java:64)
+at Pages.PagePortal.Contrato2(PagePortal.java:697)
+at FlujoBDosRRLL.FirmaOfertaInternetSinCuotas.InternetDeseoVenderSinCuotas(FirmaOfertaInternetSinCuotas.java:154)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InternetDeseoVenderSinCuotas -->
+        <test-method status="FAIL" signature="InternetYaTengoSitioSinCuotasIntPropia()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaInternetSinCuotas@eec5a4a]" name="InternetYaTengoSitioSinCuotasIntPropia" duration-ms="307374" started-at="2020-11-06T16:47:34 ART" finished-at="2020-11-06T16:52:41 ART">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@src,'/stock-api/firmadigital/firmar')]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5761eb9ff951efcd5033cbaf5fe0e1b7
+*** Element info: {Using=xpath, value=//iframe[contains(@src,'/stock-api/firmadigital/firmar')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@src,'/stock-api/firmadigital/firmar')]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5761eb9ff951efcd5033cbaf5fe0e1b7
+*** Element info: {Using=xpath, value=//iframe[contains(@src,'/stock-api/firmadigital/firmar')]}
+at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Pages.PagePortal.RequiereFirmaDigital(PagePortal.java:664)
+at FlujoBDosRRLL.FirmaOfertaInternetSinCuotas.InternetYaTengoSitioSinCuotasIntPropia(FirmaOfertaInternetSinCuotas.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InternetYaTengoSitioSinCuotasIntPropia -->
+        <test-method status="PASS" signature="InternetYaTengoSitioSinCuotasIntTBK()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaInternetSinCuotas@eec5a4a]" name="InternetYaTengoSitioSinCuotasIntTBK" duration-ms="404844" started-at="2020-11-06T16:52:41 ART" finished-at="2020-11-06T16:59:26 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InternetYaTengoSitioSinCuotasIntTBK -->
+        <test-method status="PASS" signature="after()[pri:0, instance:FlujoBDosRRLL.FirmaOfertaInternetSinCuotas@eec5a4a]" name="after" is-config="true" duration-ms="0" started-at="2020-11-06T19:40:00 ART" finished-at="2020-11-06T19:40:00 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- FlujoBDosRRLL.FirmaOfertaInternetSinCuotas -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,121 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 11,408.038 s <<< FAILURE! - in TestSuite
+FlujoBDosRRLL.FirmaOfertaInternetConCuotas.InternetDeseoVenderSinCuotas  Time elapsed: 122.165 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-datos-local/app-wizard-master/div[3]/div[1]/h4"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:61827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 01c2ed6bd6557e910a37bc420ac3c435
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-datos-local/app-wizard-master/div[3]/div[1]/h4}
+	at FlujoBDosRRLL.FirmaOfertaInternetConCuotas.InternetDeseoVenderSinCuotas(FirmaOfertaInternetConCuotas.java:148)
+
+FlujoBDosRRLL.FirmaOfertaInternetSinCuotas.InternetDeseoVenderSinCuotas  Time elapsed: 236.853 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/app-home/div/div/app-contrato/div/div[2]/div[3]/div/pdf-viewer/div/div/div[1]/div[2]/div[2]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:63950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0e9b77c3da0a049586750638d48dcf19
+*** Element info: {Using=xpath, value=/html/body/app-root/app-home/div/div/app-contrato/div/div[2]/div[3]/div/pdf-viewer/div/div/div[1]/div[2]/div[2]}
+	at FlujoBDosRRLL.FirmaOfertaInternetSinCuotas.InternetDeseoVenderSinCuotas(FirmaOfertaInternetSinCuotas.java:154)
+
+FlujoBDosRRLL.FirmaOfertaInternetSinCuotas.InternetYaTengoSitioSinCuotasIntPropia  Time elapsed: 307.37 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@src,'/stock-api/firmadigital/firmar')]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5761eb9ff951efcd5033cbaf5fe0e1b7
+*** Element info: {Using=xpath, value=//iframe[contains(@src,'/stock-api/firmadigital/firmar')]}
+	at FlujoBDosRRLL.FirmaOfertaInternetSinCuotas.InternetYaTengoSitioSinCuotasIntPropia(FirmaOfertaInternetSinCuotas.java:77)
+
+FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas.PresencialPosFijoLocalExistenteSinCuotas  Time elapsed: 367.568 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:51495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 52a05aa63ac4a64291fc6bda69fe692d
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]}
+	at FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas.PresencialPosFijoLocalExistenteSinCuotas(FirmaOfertaPermanenteSinCuotas.java:56)
+
+FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas.PresencialPosMovilLocalExistenteSinCuotas  Time elapsed: 391.34 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1601291415f191700947f37222f95da1
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]}
+	at FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas.PresencialPosMovilLocalExistenteSinCuotas(FirmaOfertaPermanenteSinCuotas.java:90)
+
+FlujoBDosRRLL.FirmaOfertaTemporalSinCuotas.PresencialPosFijoLocalExistenteSinCuotas  Time elapsed: 407.421 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f4874f15ac02da1486aa79690cac9d0c
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]}
+	at FlujoBDosRRLL.FirmaOfertaTemporalSinCuotas.PresencialPosFijoLocalExistenteSinCuotas(FirmaOfertaTemporalSinCuotas.java:56)
+
+FlujoBDosRRLL.NotificaOfertaInternetSinCuotas.InternetDeseoVenderSinCuotas  Time elapsed: 357.851 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@src,'/stock-api/firmadigital/firmar')]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:55997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: efa849c0d5d8f34b54cb06de7fe69842
+*** Element info: {Using=xpath, value=//iframe[contains(@src,'/stock-api/firmadigital/firmar')]}
+	at FlujoBDosRRLL.NotificaOfertaInternetSinCuotas.InternetDeseoVenderSinCuotas(NotificaOfertaInternetSinCuotas.java:153)
+
+FlujoBDosRRLL.NotificaOfertaInternetSinCuotas.InternetYaTengoSitioSinCuotasIntTBK  Time elapsed: 239.997 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-datos-local/app-wizard-master/div[3]/div[1]/h4"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56910}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9459078642c4d986d786e9a2a3113ebf
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-datos-local/app-wizard-master/div[3]/div[1]/h4}
+	at FlujoBDosRRLL.NotificaOfertaInternetSinCuotas.InternetYaTengoSitioSinCuotasIntTBK(NotificaOfertaInternetSinCuotas.java:38)
+
+FlujoBDosRRLL.NotificaOfertaPermanenteSinCuotas.PresencialPosFijoNuevoLocalSinCuotas  Time elapsed: 527.717 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CL-NB-621', ip: '192.168.0.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\JUAN~1.FUE\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:59951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 074c51770825c33eefc454148feb1f77
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/app-root/app-agregar-producto/app-success/div[1]/div[1]/div[1]/div[2]/span[1]}
+	at FlujoBDosRRLL.NotificaOfertaPermanenteSinCuotas.PresencialPosFijoNuevoLocalSinCuotas(NotificaOfertaPermanenteSinCuotas.java:41)
+
