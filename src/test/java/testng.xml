@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+        <class name="ValidacionContratos.ConM4PPosFijo"/>
+		<class name="ValidacionContratos.ConM4PPosMovil"/>
+		<class name="ValidacionContratos.ConM4PPosTemporal"/>
+		<class name="ValidacionContratos.ConM4PWebPayCL"/>
+		<class name="ValidacionContratos.ConM4PWebPayPlus"/>
+		<class name="ValidacionContratos.SinM4PPosFijo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
