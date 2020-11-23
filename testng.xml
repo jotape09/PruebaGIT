@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="FlujoBDosRRLL.FirmaOfertaInternetConCuotas"/>
+      <class name="FlujoBDosRRLL.FirmaOfertaInternetSinCuotas"/>
+      <class name="FlujoBDosRRLL.FirmaOfertaPermanenteConCuotas"/>
+      <class name="FlujoBDosRRLL.FirmaOfertaPermanenteSinCuotas"/>
+      <class name="FlujoBDosRRLL.FirmaOfertaTemporalConCuotas"/>
+      <class name="FlujoBDosRRLL.FirmaOfertaTemporalSinCuotas"/>
+      <class name="FlujoBDosRRLL.NotificaOfertaInternetConCuotas"/>
+      <class name="FlujoBDosRRLL.NotificaOfertaInternetSinCuotas"/>
+      <class name="FlujoBDosRRLL.NotificaOfertaPermanenteConCuotas"/>
+      <class name="FlujoBDosRRLL.NotificaOfertaPermanenteSinCuotas"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
